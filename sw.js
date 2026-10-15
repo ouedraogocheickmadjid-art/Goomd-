@@ -1,6 +1,6 @@
-/* Service worker — Mooré : fonctionnement hors ligne.
+/* Service worker — Goomdé : fonctionnement hors ligne.
    Le nom du cache commence par "moore" (l'app supprime ces caches lors d'une mise à jour). */
-const VERSION = "2026.10.14.1";
+const VERSION = "2026.10.15.3";
 const CACHE = "moore-" + VERSION;
 const SHELL = ["./", "index.html", "manifest.json",
   "icon-192.png", "icon-512.png", "maskable-512.png", "apple-touch-icon.png"];
